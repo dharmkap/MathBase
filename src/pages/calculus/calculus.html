@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Calculus</ion-title>
+    <ion-buttons right>
+      <button ion-button (click)="search()">
+        <ion-icon name="md-search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/img/calculus_header.png">
+  <p>
+    Calculus (from Latin calculus, literally "small pebble used for counting on an abacus") is the mathematical study of continuous change, in the same way that geometry is the study of shape and algebra is the study of generalizations of arithmetic operations. It has two major branches, differential calculus (concerning rates of change and slopes of curves), and integral calculus (concerning accumulation of quantities and the areas under and between curves).  These two branches are related to each other by the Fundamental Theorem of Calculus.
+  </p>
+  <p>
+    Both branches make use of the fundamental notions of convergence of infinite sequences and infinite series to a well-defined limit. Generally, modern calculus is considered to have been developed in the 17th century by Isaac Newton and Gottfried Leibniz. Today, calculus has widespread uses in science, engineering and economics.
+  </p>
+  <h5>The Fundamental Theorem of Calculus</h5>
+  <p>
+    The Fundamental Theorem of Calculus states that differentiation and integration are inverse operations. More precisely, it relates the values of antiderivatives to definite integrals. Because it is usually easier to compute an antiderivative than to apply the definition of a definite integral, the fundamental theorem of calculus provides a practical way of computing definite integrals. It can also be interpreted as a precise statement of the fact that differentiation is the inverse of integration.
+  </p>
+  <p>
+    If a function <i>f</i> is continuous on the interval [<i>a, b</i>] and if <i>F</i> is a function whose derivative is <i>f</i> on the interval (<i>a, b</i>), then:
+  </p>
+  <ion-card>
+    <ion-card-content>
+      <img src="assets/img/calculus_integration.png">
+    </ion-card-content>
+  </ion-card>
+  <p>
+    Furthermore, for every x in the interval (a, b):
+  </p>
+  <ion-card>
+    <ion-card-content>
+      <img src="assets/img/calculus_integration_2.png">
+    </ion-card-content>
+  </ion-card>
+  <p>
+    The fundamental theorem provides an algebraic method of computing many definite integrals—without performing limit processes—by finding formulas for antiderivatives. It is also a prototype solution of a differential equation. Differential equations relate an unknown function to its derivatives, and are ubiquitous in the sciences.
+  </p>
+  <h5>Differential Calculus</h5>
+  <p>
+    Differential calculus is the study of the definition, properties, and applications of the derivative of a function. The process of finding the derivative is called <i>differentiation</i>. Given a function and a point in the domain, the derivative at that point is a way of encoding the small-scale behavior of the function near that point. By finding the derivative of a function at every point in its domain, it is possible to produce a new function, called the <i>derivative function</i> or just the <i>derivative</i> of the original function.
+  </p>
+  <p>
+    The derivative of a function at a chosen input value describes the rate of change of the function near that input value.  Geometrically, the derivative at a point is the slope of the tangent line to the graph of the function at that point, provided that the derivative exists and is defined at that point. For a real-valued function of a single real variable, the derivative of a function at a point generally determines the best linear approximation to the function at that point.
+  </p>
+  <ion-card>
+    <ion-card-content>
+      The graph of a function, drawn in black, and a tangent line to that function, drawn in red. The slope of the tangent line equals the derivative of the function at the marked point.
+      <img src="assets/img/calculus_derivative_graph.png">
+    </ion-card-content>
+  </ion-card>
+  <h5>Integral Calculus</h5>
+  <p>
+    <i>Integral calculus</i> is the study of the definitions, properties, and applications of two related concepts, the <i>indefinite integral</i> and the <i>definite integral</i>. The process of finding the value of an integral is called <i>integration</i>. In technical language, integral calculus studies two related linear operators.
+  </p>
+  <p>
+    The <i>indefinite integral</i>, also known as the <i>antiderivative</i>, is the inverse operation to the derivative. <i>F</i> is an indefinite integral of <i>f</i> when <i>f</i> is a derivative of <i>F</i>. (This use of lower- and upper-case letters for a function and its indefinite integral is common in calculus.)
+  </p>
+  <p>
+    The <i>definite integral</i> inputs a function and outputs a number, which gives the algebraic sum of areas between the graph of the input and the x-axis. The technical definition of the definite integral involves the limit of a sum of areas of rectangles, called a <i>Riemann sum</i>.
+  </p>
+  <ion-card>
+    <ion-card-content>
+      A definite integral of a function can be represented as the signed area of the region bounded by its graph.
+      <img src="assets/img/calculus_integral_graph.png">
+    </ion-card-content>
+  </ion-card>
+</ion-content>

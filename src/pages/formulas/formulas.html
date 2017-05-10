@@ -1,0 +1,143 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Formulas</ion-title>
+    <ion-buttons right>
+      <button ion-button (click)="search()">
+        <ion-icon name="md-search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/img/formulas_header.png">
+  <p>
+    This section contains the most important, relevant, and pertinent formulas for math.  It is a handy guide which is the first place to refer to when looking for a particular formula.
+  </p>
+  <h5>Arithmetic Operations</h5>
+  <ion-card>
+    <ion-card-content>
+      ab + ac = a(b + c)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      a(b/c) = ab/c
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (a/b)/c = a/(bc)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      a/(b/c) = ac/b
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      a/b + c/d = (ad + bc) / bd
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      a/b - c/d = (ad - bc) / bd
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (a-b) / (c-d) = (b-a) / (d-c)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (a+b) / c = a/c + b/c
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (ab + ac) / a = b+c, a <> 0
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (a/b) / (c/d) = ad / bc
+    </ion-card-content>
+  </ion-card>
+
+  <h5>Properties of Inequalities</h5>
+  <ion-card>
+    <ion-card-content>
+      if a &lt; b, then (a + b) &lt; (b + c) and (a - c) &lt; (b - c)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      if a &lt; b and c &gt; 0, then ac &lt; bc and (a/c) &lt; (b/c)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      if a &lt; b and c &lt; 0, then ac &gt; bc and (a/c) &gt; (b/c)
+    </ion-card-content>
+  </ion-card>
+
+  <h5>Laws of Exponents</h5>
+  <ion-card>
+    <ion-card-header>
+      Multiplying Powers With the Same Base
+    </ion-card-header>
+    <ion-card-content>
+      x<sup>a</sup> * x<sup>b</sup> = x<sup>a+b</sup>, when multiplying powers with the same base, add the exponents
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      Raising a Power to a Power
+    </ion-card-header>
+    <ion-card-content>
+      (x<sup>a</sup>)<sup>b</sup> = x<sup>ab</sup>, when raising a power to a power, mulitply the exponents
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      Power of a Product Property
+    </ion-card-header>
+    <ion-card-content>
+      (xy<sup>a</sup>) = x<sup>a</sup>y<sup>b</sup>, when a product is raised to a power, find the power of each factor and multiply
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      Negative Integer Exponents
+    </ion-card-header>
+    <ion-card-content>
+      (x<sup>-a</sup>) = 1/x<sup>a</sup>, if the power contains a negative exponent, then rewrite the power as an equivalent expression with a positive exponent by taking the reciprocal
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (a/b)<sup>-n</sup> = (b/a)<sup>n</sup>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      (a/b)<sup>n</sup> = (a<sup>n</sup>)/(b<sup>n</sup>)
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      a<sup>n</sup>/a<sup>m</sup> = a<sup>n-m</sup>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      a<sup>0</sup> = 1
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

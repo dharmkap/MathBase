@@ -1,0 +1,116 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Linear Algebra</ion-title>
+    <ion-buttons right>
+      <button ion-button (click)="search()">
+        <ion-icon name="md-search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/img/linear_algebra_header.png">
+  <p>
+    Linear algebra is the branch of mathematics concerning vector spaces and linear mappings between such spaces. It includes the study of lines, planes, and subspaces, but is also concerned with properties common to all vector spaces.
+  </p>
+  <h4>Vector Spaces</h4>
+  <p>
+    The main structures of linear algebra are vector spaces. A vector space over a field <i>F</i> is a set <i>V</i> together with two binary operations. Elements of <i>V</i> are called <b>vectors</b> and elements of <i>F</i> are called <b>scalars</b>.
+  </p>
+  <p>
+    The first operation, <b><i>vector addition</i></b>, takes any two vectors <i>v</i> and <i>w</i> and outputs a third vector <i>v + w</i>. The second operation, <b><i>scalar multiplication</i></b>, takes any scalar <i>a</i> and any vector <i>v</i> and outputs a new vector <i>av</i>.
+  </p>
+  <p>
+     The operations of addition and multiplication in a vector space must satisfy the following axioms. In the list below, let <i>u</i>, <i>v</i> and <i>w</i> be arbitrary vectors in <i>V</i>, and <i>a</i> and <i>b</i> scalars in <i>F</i>.
+  </p>
+  <p>
+    <ion-card>
+      <ion-card-header>
+        In <i>x+2=5</i> the letter <i>x</i> is unknown
+      </ion-card-header>
+      <ion-card-content>
+        <b><i>The Law of Inverses</i></b> can be used to discover its value: <i>x=3</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Associativity of addition
+      </ion-card-header>
+      <ion-card-content>
+        <i>u + (v + w)</i> = <i>(u + v) + w</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Commutativity of addition
+      </ion-card-header>
+      <ion-card-content>
+        <i>u</i> + <i>v</i> = <i>v</i> + <i>u</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Identity element of addition
+      </ion-card-header>
+      <ion-card-content>
+        There exists an element 0 ∈ <i>V</i>, called the <b><i>zero vector</i></b>, such that <i>v</i> + 0 = <i>v</i> for all <i>v</i> ∈ <i>V</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Inverse elements of addition
+      </ion-card-header>
+      <ion-card-content>
+        For every <i>v</i> ∈ V, there exists an element −<i>v</i> ∈ <i>V</i>, called the <i>additive inverse</i> of <i>v</i>, such that <i>v</i> + (−<i>v</i>) = 0
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Distributivity of scalar multiplication with respect to vector addition
+      </ion-card-header>
+      <ion-card-content>
+        <i>a</i>(<i>u</i> + <i>v</i>) = <i>au</i> + <i>av</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Distributivity of scalar multiplication with respect to field addition
+      </ion-card-header>
+      <ion-card-content>
+        (<i>a</i> + <i>b</i>)<i>v</i> = <i>av</i> + <i>bv</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Compatibility of scalar multiplication with field multiplication
+      </ion-card-header>
+      <ion-card-content>
+        <i>a</i>(<i>bv</i>) = (<i>ab</i>)<i>v</i>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        Identity element of scalar multiplication
+      </ion-card-header>
+      <ion-card-content>
+        1<i>v</i> = <i>v</i>, where 1 denotes the <i>multiplicative identity</i> in <b>F</b>
+      </ion-card-content>
+    </ion-card>
+  </p>
+
+  <p>
+    The first four axioms are those of V being an <b><i>abelian group</i></b> under vector addition. Vector spaces may be diverse in nature, for example, containing functions, polynomials or matrices. Linear algebra is concerned with properties common to all vector spaces.
+  </p>
+</ion-content>

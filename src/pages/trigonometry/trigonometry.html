@@ -1,0 +1,137 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Trigonometry</ion-title>
+    <ion-buttons right>
+      <button ion-button (click)="search()">
+        <ion-icon name="md-search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/img/trigonometry_header.png">
+  <p>
+    Trigonometry is the branch of mathematics dealing with the relations of the sides and angles of triangles and with the relevant functions of any angles.
+  </p>
+  <p>
+    The lengths of the sides of a right-angle triangle and the angles between those sides have fixed relationships: that is, if at least the length of one side and the value of one angle is known, then all other angles and lengths can be determined algorithmically. These calculations soon came to be defined as the <i>trigonometric functions</i> and today are pervasive in both pure and applied mathematics.
+  </p>
+  <p>
+    Fundamental methods of analysis such as the Fourier transform, for example, or the wave equation, use trigonometric functions to understand cyclical phenomena across many applications in fields as diverse as physics, mechanical and electrical engineering, music and acoustics, astronomy, ecology, and biology.
+  </p>
+  <p>
+    Trigonometry is most simply associated with planar right-angle triangles (each of which is a two-dimensional triangle with one angle equal to 90 degrees). The applicability to non-right-angle triangles exists, but, since any non-right-angle triangle (on a flat plane) can be bisected to create two right-angle triangles, most problems can be reduced to calculations on right-angle triangles. Thus the majority of applications relate to right-angle triangles.
+  </p>
+
+  <p>
+    If one angle of a triangle is 90 degrees and one of the other angles is known, the third is thereby fixed, because the three angles of any triangle add up to 180 degrees. The two acute angles therefore add up to 90 degrees: they are complementary angles. The shape of a triangle is completely determined, except for similarity, by the angles.
+  </p>
+
+  <ion-card>
+    <ion-card-content>
+      Right triangle with all of the sides and angles labeled
+      <img src="assets/img/trig_right_triangle.png">
+    </ion-card-content>
+  </ion-card>
+
+  <p>
+    The <b><i>hypotenuse</i></b> is the side opposite to the 90 degree angle in a right triangle; it is the longest side of the triangle and one of the two sides adjacent to angle A. The <b><i>adjacent leg</i></b> is the other side that is adjacent to angle A. The <b><i>opposite</i></b> side is the side that is opposite to angle A. The terms <b><i>perpendicular</i></b> and <b><i>base</i></b> are sometimes used for the opposite and adjacent sides respectively.  Many people find it easy to remember what sides of the right triangle are equal to sine, cosine, or tangent, by memorizing the word <b>SOH-CAH-TOA</b>:
+  </p>
+
+  <ion-card>
+    <ion-card-header>
+      SOH
+    </ion-card-header>
+    <ion-card-content>
+      <b>S</b>ine = <b>O</b>pposite / <b>H</b>ypotenuse
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      CAH
+    </ion-card-header>
+    <ion-card-content>
+      <b>C</b>osine = <b>A</b>djacent / <b>H</b>ypotenuse
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      TOA
+    </ion-card-header>
+    <ion-card-content>
+      <b>T</b>angent = <b>O</b>pposite / <b>A</b>djacent
+    </ion-card-content>
+  </ion-card>
+
+  <p>
+    Once the angles are known, the ratios of the sides are determined, regardless of the overall size of the triangle. If the length of one of the sides is known, the other two are determined. These ratios are given by the following trigonometric functions of the known angle A, where a, b and c refer to the lengths of the sides in the accompanying figure:
+  </p>
+
+  <ion-card>
+    <ion-card-header>
+      Sine Function
+    </ion-card-header>
+    <ion-card-content>
+      Defined as the ratio of the side opposite the angle to the hypotenuse.
+      <img src="assets/img/trig_sine.png">
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Cosine Function
+    </ion-card-header>
+    <ion-card-content>
+      Defined as the ratio of the adjacent leg to the hypotenuse.
+      <img src="assets/img/trig_cosine.png">
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Tangent Function
+    </ion-card-header>
+    <ion-card-content>
+      Defined as the ratio of the opposite leg to the adjacent leg.
+      <img src="assets/img/trig_tangent.png">
+    </ion-card-content>
+  </ion-card>
+
+  <p>
+    The reciprocals of these functions are named the <b>cosecant</b> (csc or cosec), <b>secant</b> (sec), and <b>cotangent</b> (cot), respectively:
+  </p>
+
+  <ion-card>
+    <ion-card-header>
+      Cosecant Function
+    </ion-card-header>
+    <ion-card-content>
+      <img src="assets/img/trig_cosecant.png">
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Secant Function
+    </ion-card-header>
+    <ion-card-content>
+      <img src="assets/img/trig_secant.png">
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Cotangent Function
+    </ion-card-header>
+    <ion-card-content>
+      <img src="assets/img/trig_cotangent.png">
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
